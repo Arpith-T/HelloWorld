@@ -2,4 +2,4 @@ import os
 
 message = os.getenv("MESSAGE")
 
-print(message)
+print(f"Hello {message}")
